@@ -1,4 +1,4 @@
-# Projecy-2
+# Project-2
 
 The name of your project.
 
