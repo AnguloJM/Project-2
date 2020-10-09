@@ -13,7 +13,8 @@ Planning a trip? Not sure where to go next? Venture will show you a catalog of p
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
 ## Component Hierarchy
-Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/uploads/users/1795/posts/30352/image/GettingStartedWithReduxTutorial-React-Component-Structure.png) as an example.
+Desktop
+![Screen Shot 2020-10-09 at 7 22 41 AM](https://user-images.githubusercontent.com/69740725/95577622-84d8a380-0a00-11eb-8570-efd4b4475e35.png)
 
 ## API and Data Sample
 
