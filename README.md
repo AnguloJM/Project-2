@@ -65,7 +65,7 @@ Click [here](https://user-images.githubusercontent.com/69740725/95585142-d1c2770
 | CSS | M | 12hrs| 0hrs | 0hrs |
 | Buttons(Begin, Likes, and Next) | H | 6hrs| 0hrs | 0hrs |
 | Working with API | H | 10hrs| 0hrs | 0hrs |
-| Post-MVP | H | 10hrs| 0hrs | 0hrs |
+| Post-MVP | M | 10hrs| 0hrs | 0hrs |
 | Debugging | H | 3hrs| 0hrs | 0hrs |
 | Total | H | 56hrs| 0hrs | 0hrs |
 
