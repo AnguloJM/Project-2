@@ -23,8 +23,7 @@ Click [here](https://user-images.githubusercontent.com/69740725/95585142-d1c2770
 
 [Airtable](https://airtable.com/api?utm_source=google&utm_campaign=airtable_desknar&utm_term=airtable%20api&utm_content=465926015432&utm_extra2=&utm_extra4=g&campaignid=936407691&adgroupid=110555501161&feeditemid=&targetid=kwd-369514580387&loc_physical_ms=9007733&matchtype=e&network=g&device=c&devicemodel=&gclid=CjwKCAjwlID8BRAFEiwAnUoK1SjExStbCkyldQUrXSlEissYly6L4tOlqh6aPD8mQxQ-J14PTuflMhoCIqQQAvD_BwE&creative=465926015432&keyword=airtable%20api&placement=&target=&adposition=&gclid=CjwKCAjwlID8BRAFEiwAnUoK1SjExStbCkyldQUrXSlEissYly6L4tOlqh6aPD8mQxQ-J14PTuflMhoCIqQQAvD_BwE)
 
-
-
+[JSON data sample](https://user-images.githubusercontent.com/69740725/95589025-2ae0d980-0a12-11eb-9b14-b1e30cc9f88e.png)
 
 #### MVP 
 
