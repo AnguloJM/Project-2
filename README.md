@@ -16,7 +16,7 @@ Planning a trip? Not sure where to go next? Venture will show you a catalog of p
 
 ## Component Hierarchy
 
-click [here](https://user-images.githubusercontent.com/69740725/95584906-6f697680-0a0c-11eb-9f9f-94c08aec4305.png)
+Click [here](https://user-images.githubusercontent.com/69740725/95584906-6f697680-0a0c-11eb-9f9f-94c08aec4305.png)
 
 ## API and Data Sample
 
