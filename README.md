@@ -14,6 +14,8 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 
 ## Component Hierarchy
 [Desktop](https://user-images.githubusercontent.com/69740725/95577622-84d8a380-0a00-11eb-8570-efd4b4475e35.png)
+[iPad](https://user-images.githubusercontent.com/69740725/95577678-9fab1800-0a00-11eb-899e-493e3780647b.png)
+[Phone](https://user-images.githubusercontent.com/69740725/95577680-a3d73580-0a00-11eb-91cc-7cae7cf58fe0.png)
 
 ## API and Data Sample
 
