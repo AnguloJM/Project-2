@@ -10,68 +10,68 @@ Planning a trip? Not sure where to go next? Venture will show you a catalog of p
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
-
-## Component Hierarchy
 [Desktop](https://user-images.githubusercontent.com/69740725/95577622-84d8a380-0a00-11eb-8570-efd4b4475e35.png)
 [iPad](https://user-images.githubusercontent.com/69740725/95577678-9fab1800-0a00-11eb-899e-493e3780647b.png)
 [Phone](https://user-images.githubusercontent.com/69740725/95577680-a3d73580-0a00-11eb-91cc-7cae7cf58fe0.png)
+
+## Component Hierarchy
+
 
 ## API and Data Sample
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Begin button, which prompts the user to start seeing a set of catalogs of 4 pictures each
+- Render data on all pages
+- Like button for pictures
+- Home button
+- Return the state with most likeson last page
+- Display a chart with name, returned state, and date on last page after every cycle
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add a second api
+- Add a second option on homepage to retreive a wide range of random pictures (one for each location instead of 4)
+- Create list of desired locations based on the pictures with the name, location, and date
 
-## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
+## Project Schedule 
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+|October 8| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|October 9| Project Approval / Core Application Structure (HTML, CSS, Components)| Incomplete
+|October 10| Pseudocode / actual code | Incomplete
+|October 11| Data renders on page | Incomplete
+|October 12| Fully functonal / CSS  | Incomplete
+|October 13| MVP | Incomplete
+|October 14| Begin post-MVP| Incomplete
+|October 15| Finishing touches | Incomplete
+|October 16| Presentations | Incomplete
+
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Core Structure | H | 4hrs| 0hrs | 0hrs |
+| Pseudocode | L | 2hrs| 0hrs | 0hrs |
+| Routing and linking react components | H | 10hrs| 0hrs | 0hrs |
+| CSS | M | 12hrs| 0hrs | 0hrs |
+| Buttons(Begin, Likes, and Next) | H | 6hrs| 0hrs | 0hrs |
+| Working with API | H | 10hrs| 0hrs | 0hrs |
+| Post-MVP | H | 10hrs| 0hrs | 0hrs |
+| Debugging | H | 3hrs| 0hrs | 0hrs |
+| Total | H | 56hrs| 0hrs | 0hrs |
 
 ## SWOT Analysis
 
-### Strengths:
+### Strengths: 
 
-### Weaknesses:
+### Weaknesses: algorithms
 
-### Opportunities:
+### Opportunities: Working with Airtable
 
 ### Threats:
