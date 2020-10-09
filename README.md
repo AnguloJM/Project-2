@@ -70,10 +70,10 @@ Specify the API you are using and include a link. Show us a snippet of JSON retu
 
 ## SWOT Analysis
 
-### Strengths: 
+### Strengths: buttons
 
-### Weaknesses: algorithms
+### Weaknesses: rendering components
 
-### Opportunities: Working with Airtable
+### Opportunities: setting up data with Airtable
 
-### Threats:
+### Threats: retreiving proper info from airtable
