@@ -10,9 +10,9 @@ Planning a trip? Not sure where to go next? Venture will show you a catalog of p
 
 ## Wireframes
 
-| [Desktop](https://user-images.githubusercontent.com/69740725/95577622-84d8a380-0a00-11eb-8570-efd4b4475e35.png) |
-[iPad](https://user-images.githubusercontent.com/69740725/95577678-9fab1800-0a00-11eb-899e-493e3780647b.png) |
-[Phone](https://user-images.githubusercontent.com/69740725/95577680-a3d73580-0a00-11eb-91cc-7cae7cf58fe0.png) |
+- [Desktop](https://user-images.githubusercontent.com/69740725/95577622-84d8a380-0a00-11eb-8570-efd4b4475e35.png) 
+- [iPad](https://user-images.githubusercontent.com/69740725/95577678-9fab1800-0a00-11eb-899e-493e3780647b.png) 
+- [Phone](https://user-images.githubusercontent.com/69740725/95577680-a3d73580-0a00-11eb-91cc-7cae7cf58fe0.png) 
 
 ## Component Hierarchy
 
@@ -23,7 +23,7 @@ Click [here](https://user-images.githubusercontent.com/69740725/95585142-d1c2770
 
 [Airtable](https://airtable.com/api?utm_source=google&utm_campaign=airtable_desknar&utm_term=airtable%20api&utm_content=465926015432&utm_extra2=&utm_extra4=g&campaignid=936407691&adgroupid=110555501161&feeditemid=&targetid=kwd-369514580387&loc_physical_ms=9007733&matchtype=e&network=g&device=c&devicemodel=&gclid=CjwKCAjwlID8BRAFEiwAnUoK1SjExStbCkyldQUrXSlEissYly6L4tOlqh6aPD8mQxQ-J14PTuflMhoCIqQQAvD_BwE&creative=465926015432&keyword=airtable%20api&placement=&target=&adposition=&gclid=CjwKCAjwlID8BRAFEiwAnUoK1SjExStbCkyldQUrXSlEissYly6L4tOlqh6aPD8mQxQ-J14PTuflMhoCIqQQAvD_BwE)
 
-[JSON data sample](https://user-images.githubusercontent.com/69740725/95589025-2ae0d980-0a12-11eb-9b14-b1e30cc9f88e.png)
+[JSON Data Sample](https://user-images.githubusercontent.com/69740725/95589025-2ae0d980-0a12-11eb-9b14-b1e30cc9f88e.png)
 
 #### MVP 
 
