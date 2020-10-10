@@ -1,5 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background-color: #ff6787;
+  background-image: linear-gradient(
+    0deg,
+    #ff6787 0%,
+    #fe8e7b 22%,
+    #ffb68c 49%,
+    #c7dac7 75%,
+    #55cbd3 100%
+  );
+}
+
+.App section {
+  height: auto;
+  box-sizing: content-box;
+  min-height: 85vh;
+}
+
 .App {
   text-align: center;
+}
+
+.App header {
+  background: rgba(85, 203, 211, 0.4);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App footer {
+  color: solid white;
+  height: 110px;
+  background: rgba(255, 103, 135, 0.4);
+}
+
+.App header h1 {
+  color: white;
+}
+
+.App h1 {
+  font-size: 36px;
 }
 
 .App-logo {
