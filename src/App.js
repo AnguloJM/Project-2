@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { link, Route } from "react-router-dom";
 import HomePage from "./HomePage";
+import CatalogOptions from './CatalogOptions'
 import "./App.css";
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
           Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
         },
       });
+      // const locationData = Object.keys(response.data.records)
       setDestinations(response.data.records);
-      console.log(response.data.records);
+      // console.log(response.data.records);
     };
     getDestinations();
   }, []);
@@ -29,7 +31,11 @@ function App() {
       <section>
         <Route exact path="/">
           <HomePage stateInfo={destinations} />
+        </Route>  
+        <Route exact path="/CatalogOptions">
+          <CatalogOptions stateInfo={destinations}/>
         </Route>
+        
       </section>
       <footer>
         <h3>Venture</h3>

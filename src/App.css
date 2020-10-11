@@ -43,6 +43,11 @@
   color: white;
 }
 
+.App img {
+  height: 200px;
+  width: 300px
+}
+
 .App h1 {
   font-size: 36px;
 }
