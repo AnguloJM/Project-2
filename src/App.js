@@ -3,6 +3,7 @@ import axios from "axios";
 import { link, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import CatalogOptions from './CatalogOptions'
+import Results from './Results'
 import "./App.css";
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
         </Route>  
         <Route exact path="/CatalogOptions">
           <CatalogOptions stateInfo={destinations}/>
+        </Route>
+        <Route exact path="/Results">
+          <Results stateInfo={destinations}/>
         </Route>
         
       </section>

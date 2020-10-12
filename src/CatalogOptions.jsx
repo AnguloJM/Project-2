@@ -3,19 +3,19 @@ import {Link} from 'react-router-dom'
 
 
 function CatalogOptions(props) {
-  // console.log(props)
+
   return (
     <div>
+      <Link to="/" id="backHome"><button type="submit" >Back to Home</button></Link>
       <button type="submit">Next</button>
+      <Link to="/Results" id="viewResults"><button type="submit" >View Results</button></Link>
       <p>hello</p>
       <section>
         {props.stateInfo.map((info) => (
           <Link to="/CatalogOptions">
-            <img src={info.fields.Images[0].url} alt="random state" />
-            <img src={info.fields.Images[1].url} alt="random state" />
-            <img src={info.fields.Images[2].url} alt="random state" />
-            <img src={info.fields.Images[3].url} alt="random state" />
-            {console.log(info.fields)}
+            {info.fields.Images.map((image) => (
+              <img src={image.url} />
+            ))}
           </Link>
         ))}
       </section>
