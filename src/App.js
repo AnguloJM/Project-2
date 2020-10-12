@@ -16,7 +16,6 @@ function App() {
           Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
         },
       });
-      // const locationData = Object.keys(response.data.records)
       setDestinations(response.data.records);
       // console.log(response.data.records);
     };
