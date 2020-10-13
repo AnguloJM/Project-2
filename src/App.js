@@ -38,7 +38,6 @@ function App() {
         <Route exact path="/Results">
           <Results stateInfo={destinations}/>
         </Route>
-        
       </section>
       <footer>
         <h3>Venture</h3>
