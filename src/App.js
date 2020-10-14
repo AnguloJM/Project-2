@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { link, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import CatalogOptions from './CatalogOptions'
 import Results from './Results'
-import LikeButton from './LikeButton'
+// import LikeButton from './LikeButton'
 import "./App.css";
 
 function App() {
@@ -39,9 +39,9 @@ function App() {
         <Route exact path="/Results">
           <Results stateInfo={destinations}/>
         </Route>
-        <Route exact path="/LikeButton">
+        {/* <Route exact path="/LikeButton">
           <LikeButton stateInfo={destinations}/>
-        </Route>
+        </Route> */}
       </section>
       <footer>
         <h3>Venture</h3>
