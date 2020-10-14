@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import LikeButton from './LikeButton';
 
 function CatalogOptions(props) {
+
+  const [count, setCount] = useState(0);
   let stateArr = [
     "Texas",
     "California",
@@ -10,7 +13,6 @@ function CatalogOptions(props) {
     "New York",
     "Colorado",
   ];
-  const [count, setCount] = useState(0);
 
   return (
     <div>
@@ -24,9 +26,9 @@ function CatalogOptions(props) {
       <p>hello</p>
       <section id="places">
         {count > 5 ? (<h1>Thats All of It</h1>) : (props.stateInfo.map((info) => (
-            <Link to="/CatalogOptions">
-              {info.fields.Images.map((image) =>
-                info.fields.Locations === stateArr[count] ? (<img src={image.url} alt="Somewhere in some state" />) : ("")
+          <Link to="/CatalogOptions">
+            {info.fields.Images.map((image) =>
+              info.fields.Locations === stateArr[count] ? <div><img src={image.url} alt="Somewhere in some state"/><LikeButton /></div> : ("")
               )}
             </Link>
           ))
