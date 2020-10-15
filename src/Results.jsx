@@ -1,7 +1,9 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import VentureItem from './VentureItem';
 
-function Results() {
+function Results(props) {
+
   return (
     <div>
       <Link to="/" ><button type="submit" >Back to Home</button></Link>

@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import LikeButton from './LikeButton';
 import VentureItem from './VentureItem';
 
 function CatalogOptions(props) {
 
   const [nextPage, setnextPage] = useState(0);
   const [numLike, setNumLike] = useState(0);
-  const [amountLikes, setAmountLikes] = useState(0);
 
   let stateArr = [
     "Texas",
@@ -20,7 +18,6 @@ function CatalogOptions(props) {
 
   const handleNextPage = () => {
     setnextPage(nextPage => nextPage + 1)
-    // setAmountLikes(nextPage)
     setNumLike(0)
   }
 

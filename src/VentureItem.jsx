@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import LikeButton from './LikeButton'
+import Results from './Results';
 
 function useDidUpdateEffects(fn, inputs) {
   const didMountRef = useRef(false);
@@ -10,7 +11,7 @@ function useDidUpdateEffects(fn, inputs) {
     } else {
       didMountRef.current = true;
     }
-  }, inputs) 
+  }, inputs); 
 }
 
 function VentureItem(props) {
