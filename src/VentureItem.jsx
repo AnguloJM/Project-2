@@ -3,14 +3,14 @@ import LikeButton from './LikeButton'
 
 function useDidUpdateEffects(fn, inputs) {
   const didMountRef = useRef(false);
-
+  const [isLiked] = inputs
   useEffect(() => {
     if (didMountRef.current) {
       fn()
     } else {
       didMountRef.current = true;
     }
-  }, [fn, ...inputs]); 
+  }, [fn, isLiked]); 
 }
 
 function VentureItem(props) {
