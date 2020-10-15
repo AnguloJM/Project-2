@@ -9,7 +9,7 @@ function HomePage(props) {
         {props.stateInfo.map((info) => (
           <Link to="/">
             <img src={info.fields.Images[0].url} alt="random state" />
-            <p>{info.fields.Locations}</p>
+            {/* <p>{info.fields.Locations}</p> */}
           </Link>
         ))}
       </section>

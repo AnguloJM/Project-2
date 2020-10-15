@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from 'axios';
 import { Link } from "react-router-dom";
 import VentureItem from './VentureItem';
 
@@ -16,9 +17,28 @@ function CatalogOptions(props) {
     "Colorado",
   ];
 
+  const handlePost = async () => {
+    const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/ResultsList`
+    const fields = {
+      Likes: numLike,
+      Location: stateArr[nextPage],
+      // Images: props.stateInfo.map((info) => (
+      //   info.fields.Images
+      // ))
+    };
+
+    await axios.post(airtableURL, { fields }, {
+      headers: {
+
+        Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
+      }
+    });
+  };
+
   const handleNextPage = () => {
-    setnextPage(nextPage => nextPage + 1)
-    setNumLike(0)
+    handlePost();
+    setnextPage(nextPage => nextPage + 1);
+    setNumLike(0);
   }
 
   return (

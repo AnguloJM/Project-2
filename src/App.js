@@ -19,7 +19,7 @@ function App() {
         },
       });
       setDestinations(response.data.records);
-      // console.log(response.data.records);
+      console.log(response.data.records);
     };
     getDestinations();
   }, []);
@@ -39,9 +39,6 @@ function App() {
         <Route exact path="/Results">
           <Results stateInfo={destinations}/>
         </Route>
-        {/* <Route exact path="/LikeButton">
-          <LikeButton stateInfo={destinations}/>
-        </Route> */}
       </section>
       <footer>
         <h3>Venture</h3>
