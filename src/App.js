@@ -4,7 +4,6 @@ import { Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import CatalogOptions from './CatalogOptions'
 import Results from './Results'
-// import LikeButton from './LikeButton'
 import "./App.css";
 
 function App() {
@@ -19,7 +18,7 @@ function App() {
         },
       });
       setDestinations(response.data.records);
-      console.log(response.data.records);
+      // console.log(response.data.records);
     };
     getDestinations();
   }, []);

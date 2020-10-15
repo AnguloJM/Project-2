@@ -22,8 +22,8 @@ function CatalogOptions(props) {
     const fields = {
       Likes: numLike,
       Location: stateArr[nextPage],
-      // Attachments: props.stateInfo.map((info) => (
-      //   info.fields.Images
+      // Images: props.stateInfo.map((info) => (
+      //   info.fields.Images.url
       // ))
     };
 
