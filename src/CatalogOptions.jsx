@@ -22,7 +22,7 @@ function CatalogOptions(props) {
     const fields = {
       Likes: numLike,
       Location: stateArr[nextPage],
-      // Images: props.stateInfo.map((info) => (
+      // Attachments: props.stateInfo.map((info) => (
       //   info.fields.Images
       // ))
     };

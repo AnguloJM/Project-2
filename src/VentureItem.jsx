@@ -10,7 +10,7 @@ function useDidUpdateEffects(fn, inputs) {
     } else {
       didMountRef.current = true;
     }
-  }, inputs); 
+  }, [fn, ...inputs]); 
 }
 
 function VentureItem(props) {
