@@ -175,5 +175,48 @@ footer {
 
 }
 
+@media screen and (max-width: 414px) {
+  #catalog-instructions p {
+    font-size: 20px;
+  }
+
+  #Logo h1 {
+    font-size: 40px;
+  }
+
+  #begin-button {
+    font-size: 15px;
+  }
+
+  #likeButton {
+    font-size: 15px;
+
+  }
+
+  .homeImages {
+    max-width: 400px;
+  }
+
+  #landingMessage p {
+    font-size: 20px;
+  }
+
+  #backHome button {
+    font-size: 15px;
+  }
+
+  #next-button {
+    font-size: 15px;
+  }
+
+  #view-results-button {
+    font-size: 15px;
+  }
+
+  #results-backtohome-button {
+    font-size: 15px;
+  }
+}
+
 
 
