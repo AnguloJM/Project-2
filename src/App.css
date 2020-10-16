@@ -68,7 +68,7 @@
     margin: 0 auto;
 }
 
-.resultsImages {
+.resultsImg {
   display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -90,6 +90,14 @@
   width: 400px;
   border: 1px solid white;
   border-radius: 10px;
+}
+
+.resultsImg img {
+  height: 300px;
+  width: 400px;
+  border: 1px solid white;
+  border-radius: 10px;;
+  margin: 10px;
 }
 
 .App h1 {

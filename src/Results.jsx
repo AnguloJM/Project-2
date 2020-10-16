@@ -21,26 +21,25 @@ function Results(props) {
   };
 
   const targetLocation = props.stateInfo.map((info) => info.fields)
-  console.log(targetLocation);
 
   const grabImage = targetLocation.find((loca) => (
     loca.Locations === (store.fields && store.fields.Location)
   ));
 
   return (
-    <div className="resultsImages">
+    <div>
       <Link to="/" ><button type="submit" >Back to Home</button></Link>
       <h1>Your next destiniation is:</h1>
-      <div>
-        {store.fields &&
-          <div className="resultsImages">
-          <p>{store.fields.Location}</p>
+      {store.fields &&
+        <div>
+        <h2>{store.fields.Location}</h2>
+          <div className="resultsImg" >
           {grabImage.Images.map((img) => (
-            <img src={img.url}/>
+            <img src={img.url} alt=" " />
           ))}
+          </div>
         </div>
         }
-      </div>
     </div>
   )
 }

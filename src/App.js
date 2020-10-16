@@ -18,7 +18,6 @@ function App() {
         },
       });
       setDestinations(response.data.records);
-      // console.log(response.data.records);
     };
     getDestinations();
   }, []);
