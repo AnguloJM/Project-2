@@ -28,14 +28,13 @@ function Results(props) {
   ));
 
   return (
-    <div>
+    <div className="resultsImages">
       <Link to="/" ><button type="submit" >Back to Home</button></Link>
       <h1>Your next destiniation is:</h1>
       <div>
         {store.fields &&
-          <div>
+          <div className="resultsImages">
           <p>{store.fields.Location}</p>
-          <p>{store.fields.Likes}</p>
           {grabImage.Images.map((img) => (
             <img src={img.url}/>
           ))}

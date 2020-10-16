@@ -25,7 +25,7 @@ function VentureItem(props) {
   },[isLiked]) 
 
   return (
-    <div>
+    <div className="catalogImage">
       <img src={props.img.url} alt="Somewhere in some state" />{isLiked}
       <LikeButton
         isLiked={isLiked}
