@@ -45,12 +45,12 @@ function App() {
         </div>
       <div class="contact-info">
           <p id="github">
-            <a href="https://github.com/AnguloJM" target="_blank"> <i class="fa fa-github" aria-hidden="true"
+            <a href="https://github.com/AnguloJM" target="_blank" rel="noopener noreferrer"> <i class="fa fa-github" aria-hidden="true"
               ></i></a>
           </p>
           <p id="linkedin">
             <a href="https://www.linkedin.com/in/jairo-angulo-232370139?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1kILNLrSQROsAnlWPqRP9w%3D%3D"
-            target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square" aria-hidden="true"></i><p id ="goaway2">click here</p></a>
           </p>
       </div>
       </footer>
