@@ -5,6 +5,11 @@ function HomePage(props) {
   return (
     <div>
       <Link to="/CatalogOptions" className="button"><button type="submit" >Begin</button></Link>
+      <div id="landingMessage">
+        <p>
+          Want to travel nationwide? Not sure where to go? Let us choose for you. Click begin to discover your next destination.
+        </p>
+      </div>
       <section className="homeImages">
         {props.stateInfo.map((info) => (
           <Link to="/">

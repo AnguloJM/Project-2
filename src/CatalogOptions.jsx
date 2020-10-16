@@ -47,9 +47,13 @@ function CatalogOptions(props) {
       <Link to="/Results" id="viewResults">
         <button type="submit">View Results</button>
       </Link>
-      <p>hello</p>
+      <div>
+        <p>
+          Give a like to the images that catch your eye. 
+        </p>
+      </div>
       <section id="places">
-        {nextPage > 5 ? (<h1>Thats All of It</h1>) : (props.stateInfo.map((info) => (
+        {nextPage > 5 ? (<h1>Click on "View Results" to see what your next destination will be</h1>) : (props.stateInfo.map((info) => (
           <>
             {info.fields.Images.map((image) =>
               info.fields.Locations === stateArr[nextPage] ? <VentureItem img={image} numLike={numLike} setNumLike={setNumLike}/> : ("")
