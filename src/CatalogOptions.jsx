@@ -17,14 +17,20 @@ function CatalogOptions(props) {
     "Colorado",
   ];
 
+    // const postPics = props.stateInfo.map((info) => (
+    //   info.fields.Images.map((pics) => (
+    //      pics.url
+    //   ))
+    // ))
+    // console.log(postPics)
+
+
   const handlePost = async () => {
     const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/ResultsList`
     const fields = {
       Likes: numLike,
       Location: stateArr[nextPage],
-      // Images: props.stateInfo.map((info) => (
-      //   info.fields.Images.url
-      // ))
+      // Attachments: [...postPics],
     };
 
     await axios.post(airtableURL, { fields }, {

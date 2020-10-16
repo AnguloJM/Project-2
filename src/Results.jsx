@@ -7,7 +7,7 @@ function Results(props) {
 
   useEffect(() => {
     getResultsList();
-  },[]);
+  }, []);
 
   const getResultsList = async () => {
     const airtableURL = `https://corsanywhere.herokuapp.com/api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/ResultsList?maxRecords=6&sort%5B0%5D%5Bfield%5D=CreatedAt&sort%5B0%5D%5Bdirection%5D=desc`;
@@ -20,6 +20,13 @@ function Results(props) {
     setStore(sort[0])
   };
 
+  const targetLocation = props.stateInfo.map((info) => info.fields)
+  console.log(targetLocation);
+
+  const grabImage = targetLocation.find((loca) => (
+    loca.Locations === (store.fields && store.fields.Location)
+  ));
+
   return (
     <div>
       <Link to="/" ><button type="submit" >Back to Home</button></Link>
@@ -27,7 +34,11 @@ function Results(props) {
       <div>
         {store.fields &&
           <div>
-            <p>{store.fields.Location}</p>
+          <p>{store.fields.Location}</p>
+          <p>{store.fields.Likes}</p>
+          {grabImage.Images.map((img) => (
+            <img src={img.url}/>
+          ))}
         </div>
         }
       </div>
