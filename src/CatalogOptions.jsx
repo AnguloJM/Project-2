@@ -53,7 +53,7 @@ function CatalogOptions(props) {
         </p>
       </div>
       <section id="places">
-        {nextPage > 5 ? (<h1>Click on "View Results" to see what your next destination will be</h1>) : (props.stateInfo.map((info) => (
+        {nextPage > 5 ? (<h2>Click on "View Results" to see what your next destination will be</h2>) : (props.stateInfo.map((info) => (
           <>
             {info.fields.Images.map((image) =>
               info.fields.Locations === stateArr[nextPage] ? <VentureItem img={image} numLike={numLike} setNumLike={setNumLike}/> : ("")

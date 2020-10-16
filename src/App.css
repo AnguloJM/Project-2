@@ -3,6 +3,17 @@
   padding: 0;
 }
 
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+footer {
+  display: flex;
+  flex: 0 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #root {
   background-color: #ff6787;
   background-image: linear-gradient(
@@ -18,7 +29,7 @@
 .App section {
   height: auto;
   box-sizing: content-box;
-  min-height: 85vh;
+  min-height: 82vh;
 }
 
 .App {
@@ -42,11 +53,6 @@
 .App header h1 {
   color: white;
 }
-
-/* .App img {
-  height: 300px;
-  width: 400px;
-} */
 
 .homeImages {
   display: flex;
@@ -103,6 +109,27 @@
 .App h1 {
   font-size: 36px;
 }
+
+/* .begin-button {
+
+} */
+
+#github a {
+  font-size: 30px;
+  color: black;
+  list-style-type: none;
+}
+
+#linkedin a {
+  font-size:30px;
+  color: black;
+}
+
+.contact-info {
+  text-align: right;
+  padding: 20px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -1,10 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
+import Footer from './Footer';
 
 function HomePage(props) {
   return (
     <div>
-      <Link to="/CatalogOptions" className="button"><button type="submit" >Begin</button></Link>
+      <Link to="/CatalogOptions">
+        <button type="submit" id="begin-button">Begin</button>
+      </Link>
       <div id="landingMessage">
         <p>
           Want to travel nationwide? Not sure where to go? Let us choose for you. Click begin to discover your next destination.
