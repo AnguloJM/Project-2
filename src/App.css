@@ -30,7 +30,7 @@ footer {
 .App section {
   height: auto;
   box-sizing: content-box;
-  min-height: 82vh;
+  min-height: 80vh;
 }
 
 .App {
