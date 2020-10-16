@@ -28,7 +28,7 @@ function Results(props) {
 
   return (
     <div>
-      <Link to="/" ><button type="submit" >Back to Home</button></Link>
+      <Link to="/" ><button id="results-backtohome-button" type="submit" >Back to Home</button></Link>
       <h1>Your next destiniation is:</h1>
       {store.fields &&
         <div>

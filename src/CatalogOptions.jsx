@@ -43,11 +43,11 @@ function CatalogOptions(props) {
       <Link to="/" id="backHome">
         <button>Back to Home</button>
       </Link>
-      {nextPage > 5 ? ("") : (<button onClick={handleNextPage}>Next</button>)}
+      {nextPage > 5 ? ("") : (<button id="next-button" onClick={handleNextPage}>Next</button>)}
       <Link to="/Results" id="viewResults">
-        <button type="submit">View Results</button>
+        <button id="view-results-button" type="submit">View Results</button>
       </Link>
-      <div>
+      <div id="catalog-instructions">
         <p>
           Give a like to the images that catch your eye. 
         </p>
