@@ -41,7 +41,7 @@ function App() {
       <footer>
         <div className="bottom-logo">
           <h3>Venture</h3>
-          <p>Find your next destination is just one click away</p>
+          <p>Your next destination is just one click away</p>
         </div>
       <div class="contact-info">
           <p id="github">
