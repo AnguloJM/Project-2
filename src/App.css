@@ -4,12 +4,11 @@
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 footer {
   display: flex;
-  flex: 0 150px;
   justify-content: space-between;
   align-items: center;
   margin-top: 40px;
@@ -57,36 +56,36 @@ footer {
 
 .homeImages {
   display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1300px;
-    margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 #places {
   display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 900px;
-    margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .resultsImg {
   display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 900px;
-    margin: 0 auto;
-    padding-top: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
-.homeImages a img{
+.homeImages a img {
   height: 300px;
   width: 400px;
   border: 1px solid white;
@@ -104,17 +103,13 @@ footer {
   height: 300px;
   width: 400px;
   border: 1px solid white;
-  border-radius: 10px;;
+  border-radius: 10px;
   margin: 10px;
 }
 
 .App h1 {
   font-size: 36px;
 }
-
-/* .begin-button {
-
-} */
 
 #github a {
   font-size: 30px;
@@ -123,19 +118,32 @@ footer {
 }
 
 #linkedin a {
-  font-size:30px;
+  font-size: 30px;
   color: black;
 }
 
 .contact-info {
-  text-align: right;
-  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+  margin-right: 50px;
 }
 
 #goaway2 {
   display: none;
 }
 
+.bottom-logo {
+    margin-left: 50px;
+}
+
+.fa-github {
+font-size: 50px;
+}
+
+.fa-linkedin-square {
+  font-size: 50px;
+}
 
 @media screen and (max-width: 1024px) {
   #catalog-instructions p {
@@ -152,7 +160,6 @@ footer {
 
   #likeButton {
     font-size: 20px;
-
   }
 
   .homeImages {
@@ -178,7 +185,6 @@ footer {
   #results-backtohome-button {
     font-size: 20px;
   }
-
 }
 
 @media screen and (max-width: 414px) {
@@ -196,7 +202,6 @@ footer {
 
   #likeButton {
     font-size: 15px;
-
   }
 
   .homeImages {
@@ -223,6 +228,3 @@ footer {
     font-size: 15px;
   }
 }
-
-
-
